@@ -1,0 +1,40 @@
+html, body, div, section, header, footer, aside, ul, ol, li, table, tr, th, td, button, input, textarea, select, h1, h2, h3, h4, h5, h6, em, i, strong, p, span, blockquote {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, em, th, i, strong, input, textarea, button, select {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+}
+ul, ol {
+    list-style: none;
+    vertical-align: top;
+}
+table, td, th {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, button, select, textarea {
+    outline: none;
+    background: none;
+}
+textarea {
+    resize: none;
+}
+img, a img {
+    border: none;
+    vertical-align: top;
+}
+a{ 
+    text-decoration:none
+} 
+
+/**显示隐藏**/
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
