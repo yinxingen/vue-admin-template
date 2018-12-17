@@ -1,6 +1,7 @@
 import Cookies from 'js-cookie'
 import Auth from '@/utils/auth'
 import request from '@/utils/request'
+import axios from 'axios'
 
 const state = {
     navList: []
